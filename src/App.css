@@ -1,19 +1,25 @@
+body {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .roboto-condensed-title {
-    font-family: "Roboto Condensed", serif;
-    font-optical-sizing: auto;
-    font-weight: 400; /* Укажите нужный вес */
-    font-style: normal;
-  }
-  
-  .oswald-heading {
-    font-family: "Oswald", sans-serif;
-    font-weight: 700; 
-    font-style: normal;
-  }
-  
-  .poppins-text {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300; 
-    font-style: italic; 
-  }
-  
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oswald-heading {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
