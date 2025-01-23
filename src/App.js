@@ -1,4 +1,5 @@
 import "./App.css";
+
 import Block1 from "./component/Block1/Block1";
 import Header from "./component/Header/Header";
 import RoadMap from "./component/RoadMap/RoadMap";
@@ -17,6 +18,7 @@ function App() {
       <Achievements />
       <FindNew />
       <Footer />
+      {/* DOGDPOG */}
     </div>
   );
 }
