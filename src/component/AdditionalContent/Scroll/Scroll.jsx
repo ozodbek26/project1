@@ -8,7 +8,7 @@ export default function Scroll() {
        <div className='Scroll'>
          <div class="scroll-container">
             <div class="scroll-content">
-                <span><img src={Rectangle} alt="" /></span>
+                <span className='class-name'><img src={Rectangle} alt="" /></span>
                 <span><img src={Rectangle} alt="" /></span>
                 <span><img src={Rectangle} alt="" /></span>
                 <span><img src={Rectangle} alt="" /></span>
