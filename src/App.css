@@ -13,7 +13,7 @@
   
   .poppins-text {
     font-family: "Poppins", sans-serif;
-    font-weight: 300; /* Укажите нужный вес */
-    font-style: italic; /* Если нужен курсив */
+    font-weight: 300; 
+    font-style: italic; 
   }
   
