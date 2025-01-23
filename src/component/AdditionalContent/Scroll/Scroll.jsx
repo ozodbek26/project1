@@ -17,12 +17,12 @@ export default function Scroll() {
         <div className='Scroll'>
             <div class="scroll-container">
                 <div class="scroll-content">
-                    <span><img src={logo1} alt="" /></span>
-                    <span><img src={logo2} alt="" /></span>
-                    <span><img src={logo3} alt="" /></span>
-                    <span><img src={logo4} alt="" /></span>
-                    <span><img src={logo5} alt="" /></span>
-                    <span><img src={logo6} alt="" /></span>
+                    <span><img src={logo1} alt="easyfleet" /></span>
+                    <span><img src={logo2} alt="sultantranns" /></span>
+                    <span><img src={logo3} alt="logistics" /></span>
+                    <span><img src={logo4} alt="pride" /></span>
+                    <span><img src={logo5} alt="ELGINEL" /></span>
+                    <span><img src={logo6} alt="bfd" /></span>
 
                 </div>
             </div>
