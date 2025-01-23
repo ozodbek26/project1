@@ -7,18 +7,18 @@ import FindNew from './component/FindNew/FindNew';
 import Footer from './component/Footer/Footer';
 import Scroll from './component/AdditionalContent/Scroll/Scroll';
 
-
+//asdasd
 
 function App() {
   return (
     <div className="App">
-     <Header/>
-     <Scroll/>
-     <Block1/>
-     <RoadMap/>
-     <Achievements/>
-     <FindNew/>
-     <Footer/>
+      <Header />
+      <Scroll />
+      <Block1 />
+      <RoadMap />
+      <Achievements />
+      <FindNew />
+      <Footer />
     </div>
   );
 }
