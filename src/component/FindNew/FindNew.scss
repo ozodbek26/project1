@@ -1,0 +1,39 @@
+.FindNew {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    background-color: #C7FF24;
+    width: 1440px;
+    height: 557px;
+
+    .FindNew_leftBlock {
+        padding-top: 12px;
+        margin-left: 148px;
+        width: 592px;
+        height: 428px;
+
+        h1 {
+            font-size: 54px;
+        }
+
+        p {
+            font-size: 19px;
+        }
+
+        a {
+            display: block;
+            margin-bottom: 20px;
+            margin-top: 62px;
+        }
+    }
+
+
+    .FindNew_img {
+        margin-top: -39px;
+        display: flex;
+
+        img {
+            margin-left: 10px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.roboto-condensed-title {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Укажите нужный вес */
+    font-style: normal;
+  }
+  
+  .oswald-heading {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700; 
+    font-style: normal;
+  }
+  
+  .poppins-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300; /* Укажите нужный вес */
+    font-style: italic; /* Если нужен курсив */
+  }
+  

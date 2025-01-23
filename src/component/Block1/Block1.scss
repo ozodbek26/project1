@@ -1,0 +1,44 @@
+.block1 {
+
+    .block1_img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        max-width: 100%;
+    }
+
+
+    .block1__title {
+        text-align: center;
+
+        p {
+            margin-right: auto;
+            margin-left: auto;
+            width: 800px;
+            font-size: 20px;
+        }
+    }
+
+    .block_home {
+        margin-top: 50px;
+        gap: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 1212px;
+        height: 368px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+
+        .block_home_f1 {
+            p {
+                width: 326px;
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.scroll-content {
+    display: inline-block;
+    animation: scroll-horizontal 10s linear infinite;
+}
+
+@keyframes scroll-horizontal {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.scroll-content span {
+    display: inline-block;
+    margin: 0 100px;
+    font-size: 24px;
+}

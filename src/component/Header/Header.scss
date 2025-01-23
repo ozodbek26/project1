@@ -1,0 +1,88 @@
+.header {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1440px;
+
+    .header__top {
+        display: flex;
+        justify-content: space-between;
+
+        .header__menu {
+            margin-top: 25px;
+            width: 390px;
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                text-decoration: none;
+                color: #000000;
+
+                &:hover {
+                    color: #9747FF;
+                }
+            }
+        }
+    }
+
+    .header__login {
+        width: 90px;
+        height: 39px;
+        color: rgb(255, 255, 255);
+        background-color: #9747FF;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .header__bottom {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+
+        .header__bottom__text {
+            margin-left: 40px;
+            width: 696px;
+
+            h1 {
+                font-size: 70px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            .header__bottom__text__block {
+                display: flex;
+                justify-content: space-between;
+                width: 350px;
+
+                .header__bottom__text__button {
+                    width: 200px;
+                    height: 50px;
+                    color: #ffffff;
+                    background-color: #9747FF;
+                    border: none;
+                    border-radius: 20px;
+                }
+
+                a {
+                    margin-top: 15px;
+                    font-size: 19px;
+                    text-decoration: none;
+                    color: #9747FF;
+                }
+            }
+
+            
+        }
+
+        .header__bottom__text img {
+            margin-right: 70px;
+        }
+
+        .header__bottom__img{
+            margin-right: 130px;
+            margin-left: 70px;
+        }
+    }
+
+}

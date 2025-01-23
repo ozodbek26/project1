@@ -1,0 +1,32 @@
+.Achievements {
+    margin-bottom: 50px;
+    gap: 134px;
+    justify-content: center;
+    text-align: center;
+    width: 1440px;
+    display: flex;
+
+    .Achievements_text {
+
+        h1 {
+            width: 461px;
+            font-size: 52px;
+        }
+
+        p{
+            font-size: 21px;
+        }
+    }
+
+    .Achievements_numbers {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        .Achievements_numbers_block2 {
+            margin-left: 30px;
+
+        }
+    }
+}
