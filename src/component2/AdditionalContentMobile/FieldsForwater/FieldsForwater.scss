@@ -1,0 +1,23 @@
+.FieldsForwater {
+    width: 100%;
+    min-height: 64px;
+    border-radius: 20px;
+    background-color: #FAFAFA;
+    margin-bottom: 10px;
+
+  
+    .FieldsForwater_label {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .FieldsForwater_input{
+        height: 30px;
+        font-size: 20px;
+        border: none;
+        background-color: #ffffff;
+        border-radius: 8px;
+    }
+}

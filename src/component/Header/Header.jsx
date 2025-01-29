@@ -1,5 +1,6 @@
 import './Header.scss'
 import Mobile from '../images/Mobile.png'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
     return (
@@ -14,7 +15,7 @@ export default function Header() {
                     <a href="!#">блок3</a>
                     <a href="!#">блок4</a>
                 </div>
-                <button className='header__login'>Login</button>
+                <Link to="/about"><button className='header__login'>Login</button></Link>
             </div>
             <div className='header__bottom'>
                 <div className='header__bottom__text'>

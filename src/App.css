@@ -23,3 +23,26 @@ body {
   font-weight: 300;
   font-style: italic;
 }
+
+
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.nav {
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.nav-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}

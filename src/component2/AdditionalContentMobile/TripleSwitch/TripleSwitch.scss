@@ -1,0 +1,29 @@
+.TripleSwitch {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C2C2C2;
+    width: 314px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 27px;
+    border-radius: 20px;
+
+    .TripleSwitch_block1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        width: 100px;
+        background-color: blueviolet;
+    }
+
+    .TripleSwitch_block1_1 {
+        // background-color: rgb(25, 75, 21);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
