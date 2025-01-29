@@ -1,24 +1,29 @@
 import "./App.css";
-
-import Block1 from "./component/Block1/Block1";
-import Header from "./component/Header/Header";
-import RoadMap from "./component/RoadMap/RoadMap";
-import Achievements from "./component/Achievements/Achievements";
-import FindNew from "./component/FindNew/FindNew";
-import Footer from "./component/Footer/Footer";
-import Scroll from "./component/AdditionalContent/Scroll/Scroll";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import HomePage from "./pages/HomePage";
+import About from "./pages/About";
+import MyData from "./componebt3/MyData/MyData";
+import Settings from "./componebt3/Settings/Settings";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Scroll />
-      <Block1 />
-      <RoadMap />
-      <Achievements />
-      <FindNew />
-      <Footer />
-      {/* DOGDPOG */}
+      <Router>
+        <div className="nav">
+          <Link to="/" className="nav-link">Home</Link>
+          <Link to="/about" className="nav-link">About</Link>
+          <Link to="/mydata" className="nav-link">MyData</Link>
+          <Link to="/settings" className="nav-link">Settings</Link>
+        </div>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/mydata" element={<MyData />} />
+          <Route path="/settings" element={<Settings/>} />
+
+        </Routes>
+      </Router>
     </div>
   );
 }

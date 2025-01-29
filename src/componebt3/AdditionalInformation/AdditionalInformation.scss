@@ -1,0 +1,37 @@
+.AdditionalInformation {
+
+
+    .AdditionalInformation_block1 {
+        padding-left: 10px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        border-radius: 20px;
+        margin-top: 20px;
+        border: 1px solid black;
+        display: flex;
+        // justify-content: center;
+
+
+        .AdditionalInformation_block1_img2 {
+            margin-right: 10px;
+            margin-top: 15px;
+            width: 30px;
+            height: 30px;
+        }
+
+
+        .AdditionalInformation_block1_text {
+            width: 284px;
+
+        }
+
+        .AdditionalInformation_block1_img {
+            margin-top: 13px;
+            float: right;
+            width: 30px;
+            height: 30px;
+
+            // margin-left: 80px;
+        }
+    }
+}

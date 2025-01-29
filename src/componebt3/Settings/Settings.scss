@@ -1,0 +1,35 @@
+.Settings {
+    border: 1px solid black;
+    width: 391px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+    .Settings_top {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .Settings_top_img {
+            padding-right: 10px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .Settings_top_text {
+            margin-right: 50px;
+        }
+    }
+
+
+    .AdditionalInformation_block1{
+        margin-top: 60px;
+
+        .AdditionalInformation_block1:hover{
+            color: blueviolet;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.Switch {
+    border-radius: 20px;
+    background-color: aqua;
+    width: 350px;
+    height: 70px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    .Switch_text1 {
+        margin-left: 10px;
+        width: 250px;
+
+        .Switch_text_h2 {
+            margin-top: 5px;
+            margin-bottom: 0;
+
+        }
+
+        .Switch_text1_p {
+            color: #C2C2C2;
+
+            font-size: 10px;
+        }
+    }
+
+    .Switch_img {
+        display: flex;
+        margin-top: 20px;
+        width: 57px;
+        height: 30px;
+    }
+}

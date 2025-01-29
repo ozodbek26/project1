@@ -1,5 +1,5 @@
 import './Scroll.scss'
-import Rectangle from '../../images/Rectangle 6062.png'
+// import Rectangle from '../../images/Rectangle 6062.png'
 import logo1 from "../../images/logo.svg";
 import logo2 from "../../images/Без названия (3).svg";
 import logo3 from "../../images/Без названия.svg";

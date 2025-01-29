@@ -1,0 +1,54 @@
+.DirectionSports {
+
+    .DirectionSports_h {
+        padding-top: 18px;
+        margin-left: 80px;
+        gap: 10px;
+        display: flex;
+
+        .image {
+            margin-left: 40px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .image-rotate {
+            width: 30px;
+            height: 30px;
+            transform: rotate(90deg);
+
+        }
+    }
+
+    .DirectionSports_overflow {
+        gap: 10px;
+        height: 150px;
+        display: flex;
+        overflow-x: scroll;
+
+
+
+
+
+
+        .DirectionSports_overflow_skates {
+            padding-left: 10px;
+            border-radius: 10px;
+            // background-color: #e21313;
+            width: 104px;
+            height: 112px;
+        }
+    }
+}
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
