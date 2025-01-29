@@ -1,4 +1,10 @@
 .Settings {
+
+    .Settings_link {
+        text-decoration: none;
+        color: black;
+    }
+
     border: 1px solid black;
     width: 391px;
     margin-right: auto;
@@ -25,10 +31,10 @@
     }
 
 
-    .AdditionalInformation_block1{
+    .AdditionalInformation_block1 {
         margin-top: 60px;
 
-        .AdditionalInformation_block1:hover{
+        .AdditionalInformation_block1:hover {
             color: blueviolet;
         }
     }
