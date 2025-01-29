@@ -1,18 +1,3 @@
-@font-face {
-
-  font-family: 'GT Eesti Pro Display';
-  src: url('./GT Eesti Pro Display/gteestiprodisplay_bold.otf'),
-    url('./GT Eesti Pro Display/gteestiprodisplay_light.otf'),
-    url('./GT Eesti Pro Display/gteestiprodisplay_medium.otf'),
-    url('./GT Eesti Pro Display/gteestiprodisplay_regular.otf'),
-    url('./GT Eesti Pro Display/gteestiprodisplay_thin.otf'),
-    url('./GT Eesti Pro Display/gteestiprodisplay_ultrabold.otf'),
-  ;
-
-
-
-}
-
 body {
   font-family: "Inter", serif;
   font-optical-sizing: auto;
@@ -38,8 +23,6 @@ body {
   font-weight: 300;
   font-style: italic;
 }
-
-
 
 .App {
   font-family: "Inter", serif;
