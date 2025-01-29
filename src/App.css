@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", serif;
+  font-family: "Inter", serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
@@ -24,10 +24,8 @@ body {
   font-style: italic;
 }
 
-
-
 .App {
-  font-family: Arial, sans-serif;
+  font-family: "Inter", serif;
   padding: 20px;
 }
 

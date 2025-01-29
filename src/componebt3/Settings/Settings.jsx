@@ -22,7 +22,10 @@ export default function Settings() {
                 <h1 className='Settings_top_text'>Настройки</h1>
             </div>
             <Block24 />
-            <DirectionSports3 text_h2='Поменять пароль' text_p="no password" />
+            <Link to="/ChangePassword" className="nav-link Settings_link ">
+                <DirectionSports3 text_h2='Поменять пароль' text_p="no password" />
+            </Link>
+
             <Switch text_h2='Автопауза' text_p="Автоматически включить паузу при остановке" />
             <Switch text_h2='Геолокация' text_p="Показывать ваше местоположение другим пользователям" />
             <TripleSwitch break1="Обычная" break2="Гибрид" break3="Спутник" />
